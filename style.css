@@ -1,0 +1,110 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  background-color: #333;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.titleacceuil {
+  font-size: 70px;
+}
+
+.titlegrid {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #de682d;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+}
+.accueil {
+  background-image: url('images/barbier-et-formation-en-ligne.webp');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #444; 
+}
+
+.service {
+  margin: 20px auto;
+  background-color: #555; 
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  background-color: #D35400; 
+  box-shadow:0 5px 10px rgb(0,0,0, 0.8);
+}
+
+.btn-cta {
+  background-color: #E67E22; 
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #C84C0C; 
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #222; 
+  color: #bbb; 
+}
+
+.container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #444; 
+}
+
+.card-barbier {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.barbier {
+  background-color: #555; 
+  padding: 20px;
+  border-radius: 8px;
+  width: calc(33.333% - 20px); 
+  box-sizing: border-box; 
+  box-shadow: 0 1px 10px rgb(213, 144, 75);
+}
+
+.barbier img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  margin-bottom: 15px; 
+}
+
+.titleacceuil, .accueil h2, .accueil a {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
